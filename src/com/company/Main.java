@@ -1,5 +1,6 @@
 package com.company;
 
+import javax.sound.sampled.Line;
 import java.util.Scanner;
 
 public class Main {
@@ -13,6 +14,11 @@ public class Main {
         } else {
             System.out.println("x<y");
         }
+
+        System.out.println("Привет, мир, я родился и решил задачу, я молодец");
+        System.out.println("Как меня назовёте?");
+        String nam = scan.nextLine();
+        System.out.println("Круть, теперь я " + nam);
     }
 
 }
